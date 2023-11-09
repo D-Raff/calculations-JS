@@ -7,17 +7,33 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <form action="">
       <div>
         <label for="Number1">First Number</label>
-        <input name="Number1" required type="number" />
+        <input name="Number1" id="Number1" required type="number"/>
       </div>
       <div>
         <label for="Number2">Second Number</label>
-        <input name="Number2" type="number" required />
+        <input name="Number2" type="number" required id="Number2" />
       </div>
       <div><label id="output"></label></div>
-      <div><button data-calculate type="button">calculate</button></div>
-    </form>
+      <div><button data-submit type="button">Addition</button></div>
+
+
+      <!-- <form >
+        <div>
+            <span>Number 1<input type="number" id="numb1" required></span>
+        </div>
+        <div>
+            <span>Number 2<input type="number" id="numb2" required></span>
+        </div>
+        <div>
+            <label id="output"></label>
+        </div>
+        <div>
+            <button type="button" data-addition="btnAddition">Addition</button>
+        </div>
+    </form> -->
+
+    <script src="./script/code.js"></script>
   </body>
 </html>
